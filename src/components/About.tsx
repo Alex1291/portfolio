@@ -1,7 +1,7 @@
 import SectionLabel from './SectionLabel'
 
 const stats = [
-  { num: '3+', label: 'years experience' },
+  { num: '1+', label: 'years experience' },
   { num: '12+', label: 'projects shipped' },
   { num: '8+', label: 'happy clients' },
   { num: '100%', label: 'remote ready' },
@@ -41,7 +41,7 @@ export default function About() {
           </h2>
           {[
             "Hi, I'm Alex — a full-stack developer with a passion for crafting clean, performant web applications that solve real problems.",
-            'My stack centers around React on the frontend, Java Spring Boot for backend services, and PostgreSQL for data persistence. I care about code quality, system design, and DX.',
+            'My stack centers around React on the frontend, Java Spring Boot for backend services, and PostgreSQL for data persistence.',
             'Currently open to new opportunities — remote or hybrid.',
           ].map((p, i) => (
             <p

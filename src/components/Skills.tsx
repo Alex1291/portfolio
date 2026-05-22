@@ -18,10 +18,9 @@ const groups: Group[] = [
     color: 'var(--accent)',
     skills: [
       { name: 'React', level: 92 },
-      { name: 'TypeScript', level: 80 },
+      { name: 'JavaScript', level: 80 },
       { name: 'HTML / CSS', level: 88 },
       { name: 'Vite', level: 78 },
-      { name: 'Next.js', level: 65 },
     ],
   },
   {
@@ -31,7 +30,6 @@ const groups: Group[] = [
       { name: 'Java', level: 90 },
       { name: 'Spring Boot', level: 88 },
       { name: 'REST APIs', level: 92 },
-      { name: 'Microservices', level: 72 },
       { name: 'JUnit', level: 75 },
     ],
   },
@@ -124,7 +122,7 @@ export default function Skills() {
           background: 'var(--border)',
           border: '0.5px solid var(--border)',
           borderRadius: 'var(--rl)',
-          overflow: 'hidden',
+          overflow: 'auto',
         }}
       >
         {groups.map(group => (

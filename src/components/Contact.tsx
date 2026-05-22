@@ -8,9 +8,9 @@ interface LinkRow {
 }
 
 const rows: LinkRow[] = [
-  { label: 'EMAIL', value: 'alex@example.com', href: 'mailto:alex@example.com' },
-  { label: 'GITHUB', value: 'github.com/alex', href: 'https://github.com/alex' },
-  { label: 'LINKEDIN', value: 'linkedin.com/in/alex', href: 'https://linkedin.com/in/alex' },
+  { label: 'EMAIL', value: 'alexlee1291@gmail.com', href: 'mailto:alexlee1291@gmail.com' },
+  { label: 'GITHUB', value: 'github.com/Alex1291', href: 'https://github.com/Alex1291' },
+  { label: 'LINKEDIN', value: 'Click to View Profile', href: 'https://linkedin.com/in/alex-lee-chia-hau-87237b238/' },
   { label: 'RESUME', value: 'Download PDF', href: '#' },
 ]
 

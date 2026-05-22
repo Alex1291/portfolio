@@ -26,7 +26,7 @@ export default function Footer() {
           color: 'var(--text3)',
         }}
       >
-        Built with React + Vite · Spring Boot · PostgreSQL
+        Built with React + Vite
       </span>
     </footer>
   )

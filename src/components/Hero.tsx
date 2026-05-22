@@ -174,7 +174,7 @@ export default function Hero() {
             transition: 'opacity 0.2s',
           }}
         >
-          view my work
+          View My Work
         </button>
         <button
           onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
@@ -199,7 +199,7 @@ export default function Hero() {
             transition: 'color 0.2s, border-color 0.2s',
           }}
         >
-          get in touch
+          Get in Touch
         </button>
       </div>
 

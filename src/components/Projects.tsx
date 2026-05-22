@@ -12,30 +12,30 @@ interface Project {
 const projects: Project[] = [
   {
     num: '001',
-    title: 'TaskFlow Pro',
-    desc: 'Real-time project management tool with live collaboration, role-based access control, and Kanban boards with drag-and-drop.',
-    tags: ['React', 'Spring Boot', 'PostgreSQL', 'WebSocket'],
+    title: 'eCommerce Web Application',
+    desc: 'RESTful e-commerce platform with product catalog, shopping cart, and secure checkout functionality. Full functional admin panel for product, user and order management. Integrated Stripe API for payment processing.',
+    tags: ['React', 'Vite', 'Spring Boot', 'Supabase', 'Chart.js', 'Stripe API'],
     url: '#',
   },
   {
     num: '002',
-    title: 'FinLedger API',
-    desc: 'RESTful financial data API with JWT auth, rate limiting, and advanced SQL analytics for multi-tenant reporting.',
-    tags: ['Spring Boot', 'PostgreSQL', 'Docker', 'JWT'],
+    title: 'Real-time Bus Tracking System',
+    desc: 'RESTful real-time bus tracking application with live location updates, route planning, and passenger information display.',
+    tags: ['React', 'Spring Boot', 'Google Map Api', 'Firebase Realtime Database', 'Firebase Cloud Functions'],
     url: '#',
   },
   {
     num: '003',
-    title: 'Storefront UI',
-    desc: 'Headless e-commerce frontend with Zustand cart state, infinite scroll, product filters, and smooth page transitions.',
-    tags: ['React', 'TypeScript', 'Zustand', 'Vite'],
+    title: 'Food Ordering System - Coming Soon',
+    desc: 'Web application for ordering food online with a user-friendly interface and seamless integration with the restaurant\'s backend systems.',
+    tags: ['React', 'Spring Boot', 'PostgreSQL', 'Chart.js'],
     url: '#',
   },
   {
     num: '004',
-    title: 'DataPulse Dashboard',
-    desc: 'Analytics dashboard rendering real-time charts from a Spring Boot + PostgreSQL backend via WebSocket push updates.',
-    tags: ['React', 'Spring Boot', 'PostgreSQL', 'Chart.js'],
+    title: 'JobHunt',
+    desc: 'Job search application allowing users to browse listings, apply to positions, and manage their applications.',
+    tags: ['Kotlin', 'Firebase'],
     url: '#',
   },
 ]
@@ -107,22 +107,6 @@ function ProjectCard({ project }: { project: Project }) {
           </span>
         ))}
       </div>
-
-      <a
-        href={project.url}
-        style={{
-          fontFamily: 'var(--mono)',
-          fontSize: 11,
-          color: 'var(--accent)',
-          letterSpacing: '0.04em',
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: hovered ? 10 : 6,
-          transition: 'gap 0.2s',
-        }}
-      >
-        view project →
-      </a>
     </div>
   )
 }

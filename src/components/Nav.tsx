@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react'
 
 const links = [
-  { label: 'about', href: '#about' },
-  { label: 'projects', href: '#projects' },
-  { label: 'skills', href: '#skills' },
-  { label: 'contact', href: '#contact' },
+  { label: 'About', href: '#about' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Skills', href: '#skills' },
+  { label: 'Contact', href: '#contact' },
 ]
 
 export default function Nav() {
@@ -93,7 +93,7 @@ export default function Nav() {
           transition: 'opacity 0.2s',
         }}
       >
-        hire me →
+        Hire Me →
       </button>
     </nav>
   )
